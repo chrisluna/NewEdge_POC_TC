@@ -23,6 +23,7 @@ namespace NewEdge_POC_TC
         public MainWindow()
         {
             InitializeComponent();
+            webView.Source = new Uri("https://www.google.com");
         }
     }
 }
